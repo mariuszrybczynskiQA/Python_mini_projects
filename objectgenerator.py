@@ -27,6 +27,6 @@ for i in range(0, int(user_input) + 1):
         print(f"{i} is even")
         print(f"object name " + str(temporary_animal.returnvalue()) + " has been created")
     else:
-        temporary_animal = Animal("Stefan")
+        temporary_animal = Animal("The Not Even Guy")
         print(f"{i} is not even")
         print(f"object name " + str(temporary_animal.returnvalue()) + " has been created")
